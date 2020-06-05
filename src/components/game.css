@@ -1,0 +1,112 @@
+body {
+
+  background-color: #F0F8FF;
+}
+
+/*.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+*/
+
+.head-line {
+  margin: auto;
+  width: 50%;
+  /*padding: 10px;*/
+  margin-left: 245px;
+}
+
+.new-game {
+/*  margin: auto;
+  width: 50%;*/
+  margin-left: 280px; 
+  margin-bottom: 30px;
+}
+
+.RED {
+
+  font-weight: bold;
+  margin-left: 291px; 
+  margin-right: 280px;
+  margin-bottom: 30px;
+  /*background-color: red;*/
+  color: red;
+  padding: 0;
+  width: 90px;
+}
+
+.BLUE {
+  font-weight: bold;
+  margin-left: 291px; 
+  margin-right: 280px;
+  margin-bottom: 30px;
+  /*background-color: blue;*/
+  color: blue;
+  padding: 0;
+  width: 90px
+}
+
+
+.board {
+  margin-left: 100px;
+}
+
+.cell {
+  height: 70px;
+  width: 70px;
+  background-color: #D8D8D8;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 1px;
+}
+
+.red {
+  height: 60px;
+  width: 60px;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 1px;
+}
+
+.blue {
+  height: 60px;
+  width: 60px;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 1px;
+}
+
+.winner {
+  height: 70px;
+  width: 70px;
+  background-color: #FFEB00;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 1px;
+}
+
+.win-msg {
+  font-weight: bold;
+  margin-left: 241px; 
+  margin-right: 280px;
+  margin-bottom: 30px;
+  /*background-color: red;*/
+  padding: 0;
+
+}
+
