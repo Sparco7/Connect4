@@ -1,4 +1,5 @@
-{ "homepage": "http://Sparco7.github.io/Connect4",
+{
+  "homepage": "http://Sparco7.github.io/Connect4",
   "name": "connect4",
   "version": "0.1.0",
   "private": true,
